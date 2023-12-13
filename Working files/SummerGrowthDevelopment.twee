@@ -5347,58 +5347,58 @@ Wearing the right outfit certainly helps, as you feel these clothes really help 
 :: Settings [noReturn noEventTrigger] {"position":"1700,300","size":"100,100"}
 <h2>Game Difficulty</h2>
 Determines the difficulty of the game. This does not determine how fast the player grows, merely the challenge during the game. 
-<<radiobutton "$difficulty" "sandbox" autocheck>> Sandbox - far more money and items available, it's impossible to get fired from jobs.
-<<radiobutton "$difficulty" "easy" autocheck>> Easy - more money and items available.
-<<radiobutton "$difficulty" "medium" autocheck>> Medium - the game will challenge you with balancing money and growth.
-<<radiobutton "$difficulty" "hard" autocheck>>  Hard - the game will go out of its way to bankrupt you and cause a game over.
+<label><<radiobutton "$difficulty" "sandbox" autocheck>> Sandbox - far more money and items available, it's impossible to get fired from jobs.</label>
+<label><<radiobutton "$difficulty" "easy" autocheck>> Easy - more money and items available.</label>
+<label><<radiobutton "$difficulty" "medium" autocheck>> Medium - the game will challenge you with balancing money and growth.</label>
+<label><<radiobutton "$difficulty" "hard" autocheck>>  Hard - the game will go out of its way to bankrupt you and cause a game over.</label>
 
 <h2>Growth speed </h2>
 Determines the general rate at which the main character grows. This makes the game advance quicker.
-<<radiobutton "$growthMod" 0.5 autocheck>> Slow
-<<radiobutton "$growthMod" 1 autocheck>> Medium
-<<radiobutton "$growthMod" 1.5 autocheck>>  Fast
+<label><<radiobutton "$growthMod" 0.5 autocheck>> Slow</label>
+<label><<radiobutton "$growthMod" 1 autocheck>> Medium</label>
+<label><<radiobutton "$growthMod" 1.5 autocheck>>  Fast</label>
 
 <h2>Daily amount of potions </h2>
 Determines the amount of potions that will appear in the shop daily.
-<<radiobutton "$dailyConsumableAmount" 1 autocheck>> 1
-<<radiobutton "$dailyConsumableAmount" 2 autocheck>> 2
-<<radiobutton "$dailyConsumableAmount" 3 autocheck>>  3
+<label><<radiobutton "$dailyConsumableAmount" 1 autocheck>> 1</label>
+<label><<radiobutton "$dailyConsumableAmount" 2 autocheck>> 2</label>
+<label><<radiobutton "$dailyConsumableAmount" 3 autocheck>>  3</label>
 
 <h2>Muscle growth Style</h2>
 Determines the style of muscle growth. At 'Fantasy' you can expect the protagonist to be the size of a large male bodybuilder by mid-game. At 'Realistic' you can expect her to aim for a Grecian Ideal Physique, resulting in more realistic development.
-<<radiobutton "$muscleGrowthStyle" "Realistic" autocheck>> Realistic
-<<radiobutton "$muscleGrowthStyle" "Fantasy" autocheck>> Fantasy
+<label><<radiobutton "$muscleGrowthStyle" "Realistic" autocheck>> Realistic</label>
+<label><<radiobutton "$muscleGrowthStyle" "Fantasy" autocheck>> Fantasy</label>
 
 <h2>Measurement system</h2>
 Determines the measurement system used in-game.
-<<radiobutton "$measurementSystem" "imperial" autocheck>> Imperial
-<<radiobutton "$measurementSystem" "metric" autocheck>> Metric
+<label><<radiobutton "$measurementSystem" "imperial" autocheck>> Imperial</label>
+<label><<radiobutton "$measurementSystem" "metric" autocheck>> Metric</label>
 
 <h2>Enable debug mode</h2>
 Enables debug mode. This can break save games or have unintended effects. Only for testing purposes.
-<<radiobutton "$debug" "false" autocheck>> false
-<<radiobutton "$debug" "true" autocheck>> true
+<label><<radiobutton "$debug" "false" autocheck>> false</label>
+<label><<radiobutton "$debug" "true" autocheck>> true</label>
 
 <h2>Speech icon size</h2>
 Sets the size of the icons that display within speech dialog boxes.
-<<radiobutton "$iconSize" "75px" autocheck>> small
-<<radiobutton "$iconSize" "125px" autocheck>> medium
-<<radiobutton "$iconSize" "200px" autocheck>> large
+<label><<radiobutton "$iconSize" "75px" autocheck>> small</label>
+<label><<radiobutton "$iconSize" "125px" autocheck>> medium</label>
+<label><<radiobutton "$iconSize" "200px" autocheck>> large</label>
 
 <h2>Enable Futa content</h2>
 When this is on, the player may grow a penis.
-<<radiobutton "$futa" true autocheck>> on
-<<radiobutton "$futa" false autocheck>> off
+<label><<radiobutton "$futa" true autocheck>> on</label>
+<label><<radiobutton "$futa" false autocheck>> off</label>
 
 <h2>Add lactation content</h2>
 When this is on, the player may start leaking milk
-<<radiobutton "$lactationSetting" true autocheck>> on
-<<radiobutton "$lactationSetting" false autocheck>> off
+<label><<radiobutton "$lactationSetting" true autocheck>> on</label>
+<label><<radiobutton "$lactationSetting" false autocheck>> off</label>
 
 <h2>Rival gender</h2>
 This determines the gender of the rival you will encounter.
-<<radiobutton "$rivalGender" 'male' autocheck>> Male
-<<radiobutton "$rivalGender" 'female' autocheck>> Female
+<label><<radiobutton "$rivalGender" 'male' autocheck>> Male</label>
+<label><<radiobutton "$rivalGender" 'female' autocheck>> Female</label>
 
 <<link "return" $return>>
 
@@ -9230,77 +9230,77 @@ Before we start the game, there are some global settings that determine how easy
 <br>
 Determines the difficulty of the game. This does not determine how fast the player grows, merely the challenge during the game. This determines the price of some clothes, the weekly rent they player must pay, and the price of food.
 <br>
-<<radiobutton "$difficulty" "sandbox" autocheck>> Sandbox - far more money and items available, it's impossible to get fired from jobs.
+<label><<radiobutton "$difficulty" "sandbox" autocheck>> Sandbox - far more money and items available, it's impossible to get fired from jobs.</label>
 <br>
-<<radiobutton "$difficulty" "easy" autocheck>> Easy - more money and items available.
+<label><<radiobutton "$difficulty" "easy" autocheck>> Easy - more money and items available.</label>
 <br>
-<<radiobutton "$difficulty" "medium" autocheck>> Medium - the game is made to have some challenge balancing money and growth.
+<label><<radiobutton "$difficulty" "medium" autocheck>> Medium - the game is made to have some challenge balancing money and growth.</label>
 <br>
-<<radiobutton "$difficulty" "hard" autocheck>>  Hard - the game will make an active attempt to bankrupt you and cause a game over.
+<label><<radiobutton "$difficulty" "hard" autocheck>>  Hard - the game will make an active attempt to bankrupt you and cause a game over.</label>
 <br>
 <br>
 <h2>Growth speed </h2>
 <br>
 Determines the general speed at which the main character will grow. This makes the game quicker.
 <br>
-<<radiobutton "$growthMod" 0.5 autocheck>> Slow
+<label><<radiobutton "$growthMod" 0.5 autocheck>> Slow</label>
 <br>
-<<radiobutton "$growthMod" 1 autocheck>> Medium
+<label><<radiobutton "$growthMod" 1 autocheck>> Medium</label>
 <br>
-<<radiobutton "$growthMod" 1.5 autocheck>>  Fast
+<label><<radiobutton "$growthMod" 1.5 autocheck>>  Fast</label>
 <br>
 <br>
 <h2>Daily amount of potions </h2>
 <br>
 Determines the amount of potions that will appear in the shop daily.
 <br>
-<<radiobutton "$dailyConsumableAmount" 1 autocheck>> 1
+<label><<radiobutton "$dailyConsumableAmount" 1 autocheck>> 1</label>
 <br>
-<<radiobutton "$dailyConsumableAmount" 2 autocheck>> 2
+<label><<radiobutton "$dailyConsumableAmount" 2 autocheck>> 2</label>
 <br>
-<<radiobutton "$dailyConsumableAmount" 3 autocheck>>  3
+<label><<radiobutton "$dailyConsumableAmount" 3 autocheck>>  3</label>
 <br>
 <br>
 <h2>Muscle growth Style</h2>
 <br>
 Determines the style of muscle growth. At 'Fantasy' you can expect the protagonist to be the size of a large male bodybuilder by mid-game. At 'Realistic' you can expect her to aim for a Grecian Ideal Physique, resulting in more realistic development.
 <br>
-<<radiobutton "$muscleGrowthStyle" "Realistic" autocheck>> Realistic
+<label><<radiobutton "$muscleGrowthStyle" "Realistic" autocheck>> Realistic</label>
 <br>
-<<radiobutton "$muscleGrowthStyle" "Fantasy" autocheck>> Fantasy
+<label><<radiobutton "$muscleGrowthStyle" "Fantasy" autocheck>> Fantasy</label>
 <br>
 <br>
 <h2>Add Futa content</h2>
 <br>
 When this is on, the female protagonist can grow a penis.
 <br>
-<<radiobutton "$futa" true autocheck>> on
+<label><<radiobutton "$futa" true autocheck>> on</label>
 <br>
-<<radiobutton "$futa" false autocheck>> off
+<label><<radiobutton "$futa" false autocheck>> off</label>
 <br>
 <br>
 <h2>Add lactation content</h2>
 <br>
 When this is on, the protagonist can start leaking milk
 <br>
-<<radiobutton "$lactationSetting" true autocheck>> on
+<label><<radiobutton "$lactationSetting" true autocheck>> on</label>
 <br>
-<<radiobutton "$lactationSetting" false autocheck>> off
+<label><<radiobutton "$lactationSetting" false autocheck>> off</label>
 <br>
 <br>
 <h2>Measurement system</h2>
 Determines the measurement system used in the game.
 <br>
-<<radiobutton "$measurementSystem" "imperial" autocheck>> Imperial
+<label><<radiobutton "$measurementSystem" "imperial" autocheck>> Imperial</label>
 <br>
-<<radiobutton "$measurementSystem" "metric" autocheck>> Metric
+<label><<radiobutton "$measurementSystem" "metric" autocheck>> Metric</label>
 <br><br>
 <h2>Rival gender</h2>
 This determines the gender of the rival you will encounter.
 <br>
-<<radiobutton "$rivalGender" 'male' autocheck>> Male
+<label><<radiobutton "$rivalGender" 'male' autocheck>> Male</label>
 <br>
-<<radiobutton "$rivalGender" 'female' autocheck>> Female
+<label><<radiobutton "$rivalGender" 'female' autocheck>> Female</label>
 <br><br>
 
 <<button [[Go on|startPoints]]>><</button>>
@@ -24308,15 +24308,15 @@ Before we begin the game, you can customize your starting character a bit. You c
     <span style="text-align:left;">
     <h2>Favorite clothing style:</h2>
     <h3>wearing clothes in this style gives +1 confidence</h3>
-    <<radiobutton "$favoriteStyle" "casual" autocheck>> casual <br>
-    <<radiobutton "$favoriteStyle" "tomboy" autocheck>> tomboy <br>
-    <<radiobutton "$favoriteStyle" "nerdy" autocheck>> nerdy <br>
-    <<radiobutton "$favoriteStyle" "professional" autocheck>> professional <br>
-    <<radiobutton "$favoriteStyle" "stylish" autocheck>> stylish <br>
-    <<radiobutton "$favoriteStyle" "punk" autocheck>> punk <br>
-    <<radiobutton "$favoriteStyle" "sporty" autocheck>> sporty <br> 
-    <<radiobutton "$favoriteStyle" "sexy" autocheck>> sexy <br>
-    <<radiobutton "$favoriteStyle" "girly" autocheck>> girly <br>
+    <label><<radiobutton "$favoriteStyle" "casual" autocheck>> casual </label><br>
+    <label><<radiobutton "$favoriteStyle" "tomboy" autocheck>> tomboy </label><br>
+    <label><<radiobutton "$favoriteStyle" "nerdy" autocheck>> nerdy </label><br>
+    <label><<radiobutton "$favoriteStyle" "professional" autocheck>> professional </label><br>
+    <label><<radiobutton "$favoriteStyle" "stylish" autocheck>> stylish </label><br>
+    <label><<radiobutton "$favoriteStyle" "punk" autocheck>> punk </label><br>
+    <label><<radiobutton "$favoriteStyle" "sporty" autocheck>> sporty </label><br> 
+    <label><<radiobutton "$favoriteStyle" "sexy" autocheck>> sexy </label><br>
+    <label><<radiobutton "$favoriteStyle" "girly" autocheck>> girly </label><br>
 	</span>
 	</th>
   </tr> 
